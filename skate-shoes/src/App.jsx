@@ -1,10 +1,13 @@
-import React from 'react'
-
+import NavBar from "./componentes/navBar/NavBar"
+import ItemListContainer from "./componentes/ItemListContainer/Itemlistcontainer"
+import CartWidget from "./componentes/CartWidget/CartWidget"
 const App = () => {
   return (
-    <div>
-      <h1 className='text-center' >skate shoes</h1>
-    </div>
+    <>
+      <NavBar/>
+      <ItemListContainer greeting={"Nuevos Ingresos"}/>
+
+    </>
   )
 }
 
